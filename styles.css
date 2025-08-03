@@ -672,19 +672,8 @@ body{
     }
 }
 
-@media screen and (max-width:340px) {
-    .NewsletterContainer{
-        overflow: hidden;
-        height: 50vh;
-    }
-    .Newsletter-Section{
-        overflow: hidden;
-        height: 50vh;
-    }
-    .NewsletterContainer-content{
-        overflow: hidden;
-        height: 50vh;
-    }
+@media screen and (max-width:350px) {
+    
     .NewsletterContainer-content-box{
         display: flex;
         justify-content: center;
@@ -827,4 +816,5 @@ ul li {
         gap: 5rem;
     }
     
+
 }
